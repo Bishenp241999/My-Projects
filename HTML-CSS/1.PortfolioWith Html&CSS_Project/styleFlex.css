@@ -1,0 +1,144 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Nunito:wght@400;600&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+/* FLEXBOX HEADER */
+.main-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    /* background-color: #bdc3c7; */
+}
+
+.main-header h1,
+.post-header h2,
+h3,
+.myName strong,
+footer {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.main-header h1 {
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #2c3e50;
+}
+
+.main-header nav .nav-link {
+    margin-right: 1em;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.post-header h2 {
+    font-size: 2rem;
+    color: #000;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #8e44ad;
+}
+
+.article-img {
+    border: 5px solid #bdc3c7;
+    border-radius: 10px;
+}
+
+.myName strong {
+    font-weight: 700;
+    color: #27ae60;
+}
+
+.welcomeText {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: #7f8c8d;
+}
+
+.welcomeText strong {
+    font-weight: 600;
+    color: #2980b9;
+}
+
+section p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    color: #34495e;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.my-skills {
+    text-align: center;
+    color: #000;
+}
+
+li {
+    color: #8e44ad;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.skill-icon {
+    position: absolute;
+    right: 28px;
+    top: 15px;
+}
+
+.portfolio-icon {
+    position: absolute;
+    left: 415px;
+}
+
+/* FLEXBOX --> div parent container class row set to flex then child element  article and aside are managed via flex*/
+/* FLEXBOX MID */
+.row {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    margin-bottom: 20px;
+    align-items: flex-start;
+}
+
+article {
+    flex: 1;
+    margin-bottom: 0;
+}
+
+aside {
+    flex: 0 0 300px;
+    text-align: center;
+}
+
+
+/* FLEXBOX FOOTER */
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    font-size: 0.875rem;
+    color: #95a5a6;
+    text-align: center;
+    padding: 1rem 0;
+}
