@@ -93,7 +93,5 @@ btnHold.addEventListener('click', function () {
 
 
 // new game button
-btnNew.addEventListener('click', function () {
-    init();
-})
+btnNew.addEventListener('click', init);
 
