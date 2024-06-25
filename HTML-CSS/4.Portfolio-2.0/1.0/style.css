@@ -1,0 +1,148 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Nunito:wght@400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Nunito', sans-serif;
+    /* overflow-x: hidden; */
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+
+/* HEADER */
+header {
+    height: 100vh;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-image: linear-gradient(rgba(34, 34, 34, 0.6),
+            rgba(34, 34, 34, 0.6)),
+        url(th.jpeg);
+}
+
+/* NAVIGATION */
+nav {
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 36px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* HEADER - CONTAINER */
+.header-container {
+    width: 1200px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+    /* text-align: center; */
+}
+
+.header-container-inner {
+    width: 50%;
+}
+
+
+h1 {
+    font-size: 52px;
+    margin-bottom: 32px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 1.4;
+    margin-bottom: 40px;
+}
+
+.btn:link,
+.btn:visited {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #f79a31;
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px 32px;
+    border-radius: 9px;
+}
+
+
+/* SECTION */
+h2 {
+    font-size: 44px;
+    margin-bottom: 36px;
+}
+
+section {
+    padding: 96px 96px 0px 96px;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 80px;
+}
+
+.grid-container p {
+    font-size: 20px;
+}
+
+.grid-item {
+    padding: 15px;
+}
+
+h3 {
+    margin-bottom: 5px;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+
+
+/* FOOTER */
+/* FLEXBOX FOOTER */
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+
+footer {
+    font-size: 5px;
+    text-align: center;
+    margin: 5px 0;
+    margin-bottom: 0;
+}
+
+footer a {
+    color: black;
+}
+
+footer h3 {
+    margin-top: 20px;
+}
