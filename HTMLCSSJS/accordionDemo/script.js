@@ -8,8 +8,7 @@
 const icons = document.querySelectorAll('.icon');
 icons.forEach(icon => {
   icon.addEventListener('click',function(e){
-    const item = icon.parentNode;
-    item.classList.toggle('open')
-    console.log(item);
+    icon.parentNode.classList.toggle('open')
+    // console.log(item);
   })
 })
